@@ -13,21 +13,21 @@ public class Task_3 {
 //        }
 
 
-        for(int i=0; i<arrayLength; i++){
+        for (int i = 0; i < arrayLength; i++) {
             array[i] = (int) (Math.random() * 100);
             System.out.print(array[i] + " ");
         }
         System.out.println();
 
-        for(int i=0; i<arrayLength/2; i++){
+        for (int i = 0; i < arrayLength / 2; i++) {
             reserv = array[i];
-            array[i] = array[arrayLength-1-i];
-            array[arrayLength-1-i] = reserv;
+            array[i] = array[arrayLength - 1 - i];
+            array[arrayLength - 1 - i] = reserv;
 
             System.out.print(array[i] + " ");
         }
 
-        for(int i=arrayLength/2; i<arrayLength; i++) {
+        for (int i = arrayLength / 2; i < arrayLength; i++) {
             System.out.print(array[i] + " ");
         }
 

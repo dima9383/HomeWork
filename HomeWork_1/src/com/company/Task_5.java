@@ -20,9 +20,9 @@ public class Task_5 {
                 if (needLowTriangle && i < j) {
                     array[i][j] = 0;
                 }
-                if (i == 2 && j == 5) {
-                    array[i][j] = 77;
-                }
+//                if (i == 2 && j == 5) {
+//                    array[i][j] = 77;
+//                }
                 System.out.print(array[i][j] + " " + (array[i][j] < 10 ? " " : ""));
             }
             System.out.println();
